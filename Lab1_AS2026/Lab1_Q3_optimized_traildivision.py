@@ -1,5 +1,3 @@
-"""Benchmark the optimized trial division method for generating prime numbers."""
-
 import math
 import time
 

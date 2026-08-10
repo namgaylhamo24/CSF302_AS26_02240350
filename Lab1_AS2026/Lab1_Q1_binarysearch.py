@@ -1,4 +1,3 @@
-"""Benchmark binary search performance on randomly generated data."""
 
 import random
 import time

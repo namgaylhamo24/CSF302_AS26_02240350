@@ -1,5 +1,3 @@
-"""Benchmark the naive trial division method for generating prime numbers."""
-
 import time
 
 

@@ -1,5 +1,3 @@
-"""Benchmark the Sieve of Eratosthenes method for generating prime numbers."""
-
 import time
 
 

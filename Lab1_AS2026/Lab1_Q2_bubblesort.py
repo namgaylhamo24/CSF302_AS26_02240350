@@ -1,5 +1,3 @@
-"""Benchmark bubble sort performance on randomly generated data."""
-
 import random
 import time
 
