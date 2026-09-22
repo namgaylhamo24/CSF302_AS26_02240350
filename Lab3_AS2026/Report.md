@@ -118,9 +118,3 @@ Even though Ternary Search discards a larger fraction (2/3) of the array at each
 
 ---
 
-## Deliverables Summary
-
-1. **Source code files:** `matrix_mult.py`, `strassen.py`, `karatsuba.py`, `search.py`
-2. **Step/frequency count tables:** included above for all three experiments (Q1 timing table, Q2 timing table, Q3 comparison-count table)
-3. **Graphs:** `q1_matrix_mult_comparison.png`, `q2_karatsuba_comparison.png`, `q3_search_comparison.png`
-4. **Analysis/conclusion:** written as a comment at the end of each source file, and summarized in the Analysis sections above
