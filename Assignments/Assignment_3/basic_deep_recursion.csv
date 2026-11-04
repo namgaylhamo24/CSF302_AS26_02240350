@@ -1,0 +1,16 @@
+input,n,basic_seconds_with_raised_limit
+sorted,1000,0.049141
+sorted,2000,0.174707
+sorted,4000,0.707241
+sorted,8000,2.929371
+sorted,16000,9.637465
+duplicates,1000,0.00497
+duplicates,2000,0.022875
+duplicates,4000,0.064385
+duplicates,8000,0.248745
+duplicates,16000,0.990543
+random,1000,0.000804
+random,2000,0.002077
+random,4000,0.004033
+random,8000,0.009019
+random,16000,0.020553

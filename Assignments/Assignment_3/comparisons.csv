@@ -1,0 +1,3 @@
+method,comparisons_n100000_random
+sorted() (Timsort),1531886
+quicksort_improved (cutoff=32),3082091
