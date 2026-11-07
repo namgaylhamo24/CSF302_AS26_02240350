@@ -1,0 +1,5 @@
+fee_model,rule,average_ratio,median_ratio,worst_ratio,pct_inputs_optimal
+independent,earliest_finish,0.8738,0.8806,0.5978,0.2
+independent,highest_fee,0.9059,0.9149,0.6702,4.9
+proportional,earliest_finish,0.6396,0.6437,0.3353,0.0
+proportional,highest_fee,0.9296,0.9354,0.7705,4.8

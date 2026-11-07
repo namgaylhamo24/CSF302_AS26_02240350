@@ -1,0 +1,236 @@
+{
+  "counterexamples": {
+    "earliest": {
+      "requests": [
+        [
+          0,
+          10,
+          100
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "optimal": [
+        100,
+        [
+          0
+        ]
+      ],
+      "brute": [
+        100,
+        [
+          0
+        ]
+      ],
+      "earliest_finish": [
+        1,
+        [
+          1
+        ]
+      ],
+      "highest_fee": [
+        100,
+        [
+          0
+        ]
+      ]
+    },
+    "fee": {
+      "requests": [
+        [
+          0,
+          5,
+          10
+        ],
+        [
+          5,
+          10,
+          10
+        ],
+        [
+          0,
+          10,
+          15
+        ]
+      ],
+      "optimal": [
+        20,
+        [
+          0,
+          1
+        ]
+      ],
+      "brute": [
+        20,
+        [
+          0,
+          1
+        ]
+      ],
+      "earliest_finish": [
+        20,
+        [
+          0,
+          1
+        ]
+      ],
+      "highest_fee": [
+        15,
+        [
+          2
+        ]
+      ]
+    },
+    "both": {
+      "requests": [
+        [
+          0,
+          10,
+          100
+        ],
+        [
+          0,
+          5,
+          60
+        ],
+        [
+          5,
+          10,
+          60
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "optimal": [
+        120,
+        [
+          1,
+          2
+        ]
+      ],
+      "brute": [
+        120,
+        [
+          1,
+          2
+        ]
+      ],
+      "earliest_finish": [
+        61,
+        [
+          2,
+          3
+        ]
+      ],
+      "highest_fee": [
+        100,
+        [
+          0
+        ]
+      ]
+    }
+  },
+  "dp_table": [
+    {
+      "j": 1,
+      "request": [
+        9,
+        12,
+        3000
+      ],
+      "orig_index": 0,
+      "p": 0,
+      "opt": 3000
+    },
+    {
+      "j": 2,
+      "request": [
+        12,
+        14,
+        2500
+      ],
+      "orig_index": 3,
+      "p": 1,
+      "opt": 5500
+    },
+    {
+      "j": 3,
+      "request": [
+        10,
+        16,
+        8000
+      ],
+      "orig_index": 1,
+      "p": 0,
+      "opt": 8000
+    },
+    {
+      "j": 4,
+      "request": [
+        13,
+        17,
+        4000
+      ],
+      "orig_index": 2,
+      "p": 1,
+      "opt": 8000
+    },
+    {
+      "j": 5,
+      "request": [
+        16,
+        18,
+        2000
+      ],
+      "orig_index": 4,
+      "p": 3,
+      "opt": 10000
+    }
+  ],
+  "ratios_independent": {
+    "earliest_finish": {
+      "average": 0.873788805391881,
+      "median": 0.8806140074151192,
+      "worst": 0.597774792463229,
+      "optimal_pct": 0.2
+    },
+    "highest_fee": {
+      "average": 0.9059304116999459,
+      "median": 0.9149295028800979,
+      "worst": 0.6701966861822217,
+      "optimal_pct": 4.9
+    }
+  },
+  "ratios_proportional": {
+    "earliest_finish": {
+      "average": 0.6395763190730641,
+      "median": 0.6436668600252817,
+      "worst": 0.33529930872187086,
+      "optimal_pct": 0.0
+    },
+    "highest_fee": {
+      "average": 0.9295722520408436,
+      "median": 0.9353952829085963,
+      "worst": 0.7704894210648686,
+      "optimal_pct": 4.8
+    }
+  },
+  "small_random_tests": {
+    "n": 1000,
+    "pass_pct": {
+      "earliest_finish": 64.6,
+      "highest_fee": 92.1
+    },
+    "first_failure_at_test": {
+      "earliest_finish": 2,
+      "highest_fee": 3
+    }
+  },
+  "equal_fee_failures_out_of_1000": 0
+}
