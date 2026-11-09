@@ -3,7 +3,7 @@ import time
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from strassen import strassen_350
+from Lab_Work.Lab3_AS2026.strassen import strassen_350
 
 # Traditional Matrix Multiplication O(n^3) vs Strassen's Algorithm
 

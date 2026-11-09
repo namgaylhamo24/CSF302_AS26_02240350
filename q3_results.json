@@ -1,0 +1,70 @@
+{
+ "verified_trials": 400,
+ "timing": [
+  {
+   "n": 1000,
+   "merge_s": 0.001802799990400672,
+   "inversions": 250019,
+   "brute_s": 0.026979499962180853
+  },
+  {
+   "n": 2000,
+   "merge_s": 0.003990999946836382,
+   "inversions": 987152,
+   "brute_s": 0.11138770001707599
+  },
+  {
+   "n": 5000,
+   "merge_s": 0.015099099953658879,
+   "inversions": 6303146,
+   "brute_s": 0.6533558000228368
+  },
+  {
+   "n": 10000,
+   "merge_s": 0.029914100014138967,
+   "inversions": 25036751,
+   "brute_s": 2.886380000039935
+  },
+  {
+   "n": 20000,
+   "merge_s": 0.060330100008286536,
+   "inversions": 99753265,
+   "brute_s": 25.147722300025634
+  },
+  {
+   "n": 50000,
+   "merge_s": 0.4684489000355825,
+   "inversions": 626835217,
+   "brute_s": null,
+   "brute_note": "aborted after 60 s (> 60 s)"
+  },
+  {
+   "n": 100000,
+   "merge_s": 0.9903078000061214,
+   "inversions": 2498443431,
+   "brute_s": null,
+   "brute_note": "not run (brute force already exceeded 60 s)"
+  },
+  {
+   "n": 200000,
+   "merge_s": 2.189247600035742,
+   "inversions": 10031226337,
+   "brute_s": null,
+   "brute_note": "not run (brute force already exceeded 60 s)"
+  },
+  {
+   "n": 500000,
+   "merge_s": 5.612803800031543,
+   "inversions": 62454485331,
+   "brute_s": null,
+   "brute_note": "not run (brute force already exceeded 60 s)"
+  },
+  {
+   "n": 1000000,
+   "merge_s": 12.35876819997793,
+   "inversions": 249890729267,
+   "brute_s": null,
+   "brute_note": "not run (brute force already exceeded 60 s)"
+  }
+ ]
+}

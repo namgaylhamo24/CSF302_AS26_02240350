@@ -1,0 +1,81 @@
+input,n,variant,comparisons,seconds
+random,1000,Lomuto (last pivot),10743,0.00108
+random,1000,Hoare (first pivot),15274,0.00105
+random,1000,Randomised,11446,0.00112
+random,1000,Three-way (last pivot),17014,0.00127
+random,2000,Lomuto (last pivot),27097,0.00188
+random,2000,Hoare (first pivot),33007,0.00225
+random,2000,Randomised,25737,0.00234
+random,2000,Three-way (last pivot),39022,0.00279
+random,4000,Lomuto (last pivot),51286,0.00365
+random,4000,Hoare (first pivot),76943,0.00499
+random,4000,Randomised,52115,0.00486
+random,4000,Three-way (last pivot),86037,0.00624
+random,8000,Lomuto (last pivot),118618,0.00799
+random,8000,Hoare (first pivot),160398,0.01038
+random,8000,Randomised,127940,0.01058
+random,8000,Three-way (last pivot),179043,0.01387
+random,16000,Lomuto (last pivot),258823,0.01921
+random,16000,Hoare (first pivot),345677,0.02297
+random,16000,Randomised,275499,0.02311
+random,16000,Three-way (last pivot),398409,0.03119
+sorted,1000,Lomuto (last pivot),499500,0.03217
+sorted,1000,Hoare (first pivot),501498,0.02003
+sorted,1000,Randomised,10407,0.00092
+sorted,1000,Three-way (last pivot),501498,0.04124
+sorted,2000,Lomuto (last pivot),1999000,0.12425
+sorted,2000,Hoare (first pivot),2002998,0.08106
+sorted,2000,Randomised,24873,0.00205
+sorted,2000,Three-way (last pivot),2002998,0.17131
+sorted,4000,Lomuto (last pivot),7998000,0.49779
+sorted,4000,Hoare (first pivot),8005998,0.3225
+sorted,4000,Randomised,52657,0.00425
+sorted,4000,Three-way (last pivot),8005998,0.70477
+sorted,8000,Lomuto (last pivot),31996000,2.06447
+sorted,8000,Hoare (first pivot),32011998,1.32888
+sorted,8000,Randomised,114487,0.00932
+sorted,8000,Three-way (last pivot),32011998,2.91777
+sorted,16000,Lomuto (last pivot),127992000,8.68446
+sorted,16000,Hoare (first pivot),128023998,5.63219
+sorted,16000,Randomised,279175,0.02066
+sorted,16000,Three-way (last pivot),128023998,12.03797
+reverse,1000,Lomuto (last pivot),499500,0.03043
+reverse,1000,Hoare (first pivot),501998,0.03476
+reverse,1000,Randomised,12096,0.00144
+reverse,1000,Three-way (last pivot),668331,0.0463
+reverse,2000,Lomuto (last pivot),1999000,0.08947
+reverse,2000,Hoare (first pivot),2003998,0.08171
+reverse,2000,Randomised,24359,0.00216
+reverse,2000,Three-way (last pivot),2669998,0.18584
+reverse,4000,Lomuto (last pivot),7998000,0.36121
+reverse,4000,Hoare (first pivot),8007998,0.32427
+reverse,4000,Randomised,52911,0.00434
+reverse,4000,Three-way (last pivot),10673331,0.74802
+reverse,8000,Lomuto (last pivot),31996000,1.4586
+reverse,8000,Hoare (first pivot),32015998,1.35299
+reverse,8000,Randomised,120220,0.00983
+reverse,8000,Three-way (last pivot),42679998,3.06541
+reverse,16000,Lomuto (last pivot),127992000,5.7052
+reverse,16000,Hoare (first pivot),128031998,5.20395
+reverse,16000,Randomised,268731,0.01923
+reverse,16000,Three-way (last pivot),170693331,11.65609
+duplicates,1000,Lomuto (last pivot),53573,0.00335
+duplicates,1000,Hoare (first pivot),13738,0.0008
+duplicates,1000,Randomised,53320,0.00337
+duplicates,1000,Three-way (last pivot),5326,0.00027
+duplicates,2000,Lomuto (last pivot),206256,0.01174
+duplicates,2000,Hoare (first pivot),26814,0.00169
+duplicates,2000,Randomised,206183,0.01331
+duplicates,2000,Three-way (last pivot),10046,0.00059
+duplicates,4000,Lomuto (last pivot),810011,0.04804
+duplicates,4000,Hoare (first pivot),60766,0.00365
+duplicates,4000,Randomised,813649,0.04873
+duplicates,4000,Three-way (last pivot),22840,0.00119
+duplicates,8000,Lomuto (last pivot),3225669,0.18464
+duplicates,8000,Hoare (first pivot),126318,0.00772
+duplicates,8000,Randomised,3227185,0.18678
+duplicates,8000,Three-way (last pivot),42242,0.00199
+duplicates,16000,Lomuto (last pivot),12850921,0.81972
+duplicates,16000,Hoare (first pivot),277297,0.01919
+duplicates,16000,Randomised,12844518,0.75695
+duplicates,16000,Three-way (last pivot),83187,0.00415
