@@ -1,0 +1,142 @@
+{
+ "tests": [
+  {
+   "name": "CLRS example",
+   "dims": [
+    30,
+    35,
+    15,
+    5,
+    10,
+    20,
+    25
+   ],
+   "n": 6,
+   "optimal": 15125,
+   "parenthesisation": "((A1(A2A3))((A4A5)A6))",
+   "left_to_right": 40500,
+   "ratio": 2.677685950413223,
+   "brute_force": 15125,
+   "trees_checked": 42,
+   "match": true
+  },
+  {
+   "name": "small example",
+   "dims": [
+    5,
+    4,
+    6,
+    2,
+    7
+   ],
+   "n": 4,
+   "optimal": 158,
+   "parenthesisation": "((A1(A2A3))A4)",
+   "left_to_right": 250,
+   "ratio": 1.5822784810126582,
+   "brute_force": 158,
+   "trees_checked": 5,
+   "match": true
+  },
+  {
+   "name": "random 1",
+   "dims": [
+    7,
+    33,
+    50,
+    18,
+    4,
+    2,
+    11,
+    44
+   ],
+   "n": 7,
+   "optimal": 7290,
+   "parenthesisation": "((A1(A2(A3(A4A5))))(A6A7))",
+   "left_to_right": 21952,
+   "ratio": 3.011248285322359,
+   "brute_force": 7290,
+   "trees_checked": 132,
+   "match": true
+  },
+  {
+   "name": "random 2",
+   "dims": [
+    32,
+    50,
+    49,
+    25,
+    22,
+    3,
+    19,
+    33
+   ],
+   "n": 7,
+   "optimal": 22524,
+   "parenthesisation": "((A1(A2(A3(A4A5))))(A6A7))",
+   "left_to_right": 159200,
+   "ratio": 7.068016338128219,
+   "brute_force": 22524,
+   "trees_checked": 132,
+   "match": true
+  },
+  {
+   "name": "random 3",
+   "dims": [
+    48,
+    28,
+    36,
+    36,
+    45
+   ],
+   "n": 4,
+   "optimal": 142128,
+   "parenthesisation": "(A1((A2A3)A4))",
+   "left_to_right": 188352,
+   "ratio": 1.325227963525836,
+   "brute_force": 142128,
+   "trees_checked": 5,
+   "match": true
+  },
+  {
+   "name": "random 4",
+   "dims": [
+    14,
+    38,
+    37,
+    46
+   ],
+   "n": 3,
+   "optimal": 43512,
+   "parenthesisation": "((A1A2)A3)",
+   "left_to_right": 43512,
+   "ratio": 1.0,
+   "brute_force": 43512,
+   "trees_checked": 2,
+   "match": true
+  },
+  {
+   "name": "random 5",
+   "dims": [
+    18,
+    44,
+    41,
+    45,
+    7,
+    29,
+    23,
+    7,
+    25
+   ],
+   "n": 8,
+   "optimal": 40915,
+   "parenthesisation": "(((A1(A2(A3A4)))((A5A6)A7))A8)",
+   "left_to_right": 93060,
+   "ratio": 2.2744714652327995,
+   "brute_force": 40915,
+   "trees_checked": 429,
+   "match": true
+  }
+ ],
+ "stress_trials": 1000
+}

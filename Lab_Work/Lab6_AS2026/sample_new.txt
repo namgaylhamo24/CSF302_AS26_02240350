@@ -1,0 +1,10 @@
+Meeting agenda - algorithms study group
+1. Welcome and attendance
+2. Review of Lab 5 results
+3. Quicksort worst cases
+4. Counting sort and radix sort
+5. Dynamic programming: rod cutting
+6. Dynamic programming: matrix chain
+7. Plan for Lab 6
+8. Any other business
+Next meeting: Friday
